@@ -27,6 +27,11 @@
 		0C04C82421E6BBCB00AF62C0 /* OddOrEvenViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C04C82321E6BBCB00AF62C0 /* OddOrEvenViewControllerTests.swift */; };
 		0C36598321EB8DA900F0E40D /* AcceptanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C36598221EB8DA900F0E40D /* AcceptanceTests.m */; };
 		0C36598621EB8DA900F0E40D /* FixtureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C36598521EB8DA900F0E40D /* FixtureExample.swift */; };
+		0C36598E21EBCAA400F0E40D /* OddOrEvenUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C36598D21EBCAA400F0E40D /* OddOrEvenUseCase.swift */; };
+		0C36598F21EBCAC900F0E40D /* OddOrEvenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C04C80321E12BBF00AF62C0 /* OddOrEvenViewController.swift */; };
+		0C36599021EBCAF100F0E40D /* OddOrEvenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C04C80721E12BF900AF62C0 /* OddOrEvenInteractor.swift */; };
+		0C36599121EBCB0200F0E40D /* OddOrEvenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C04C80921E12C0B00AF62C0 /* OddOrEvenPresenter.swift */; };
+		0C36599221EBCB1500F0E40D /* OddEvenCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C04C81121E1326E00AF62C0 /* OddEvenCalculator.swift */; };
 		6D25384DFA8C81E879645963 /* Pods_AcceptanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6386659665D8A8E5F344EE4 /* Pods_AcceptanceTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +75,7 @@
 		0C36598721EB8DA900F0E40D /* SlimTables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlimTables.h; sourceTree = "<group>"; };
 		0C36598821EB8DA900F0E40D /* AcceptanceTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AcceptanceTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		0C36598921EB8DA900F0E40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C36598D21EBCAA400F0E40D /* OddOrEvenUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddOrEvenUseCase.swift; sourceTree = "<group>"; };
 		197CD5156CD82797CFA90B1F /* Pods-AcceptanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceptanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests.release.xcconfig"; sourceTree = "<group>"; };
 		C6386659665D8A8E5F344EE4 /* Pods_AcceptanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcceptanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -260,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				0C36598521EB8DA900F0E40D /* FixtureExample.swift */,
+				0C36598D21EBCAA400F0E40D /* OddOrEvenUseCase.swift */,
 			);
 			name = Fixtures;
 			sourceTree = "<group>";
@@ -428,15 +435,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-AcceptanceTests-checkManifestLockResult.txt",
 			);
@@ -450,15 +453,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/cslim/cslim.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cslim.framework",
 			);
@@ -504,6 +503,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C36598621EB8DA900F0E40D /* FixtureExample.swift in Sources */,
+				0C36598F21EBCAC900F0E40D /* OddOrEvenViewController.swift in Sources */,
+				0C36599221EBCB1500F0E40D /* OddEvenCalculator.swift in Sources */,
+				0C36598E21EBCAA400F0E40D /* OddOrEvenUseCase.swift in Sources */,
+				0C36599121EBCB0200F0E40D /* OddOrEvenPresenter.swift in Sources */,
+				0C36599021EBCAF100F0E40D /* OddOrEvenInteractor.swift in Sources */,
 				0C36598321EB8DA900F0E40D /* AcceptanceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

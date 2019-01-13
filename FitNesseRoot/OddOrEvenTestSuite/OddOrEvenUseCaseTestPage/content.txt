@@ -1,0 +1,9 @@
+| !-OddOrEvenUseCase-! |
+| number | text? |
+| 0 | The number 0 is an Even number |
+| 1 | The number 1 is an Odd number |
+| 2 | The number 2 is an Even number |
+| 3 | The number 3 is an Odd number |
+| 4 | The number 4 is an Even number |
+| -1 | The number -1 is an Odd number |
+| -2 | The number -2 is an Even number |

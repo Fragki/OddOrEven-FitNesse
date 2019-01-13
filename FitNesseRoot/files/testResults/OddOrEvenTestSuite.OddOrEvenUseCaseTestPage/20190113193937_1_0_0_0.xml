@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20160618</FitNesseVersion>
+  <rootPath>OddOrEvenTestSuite.OddOrEvenUseCaseTestPage</rootPath>
+    <result>
+    <counts>
+      <right>7</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2019-01-13T19:39:39+00:00</date>
+    <runTimeInMillis>94</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;OddOrEvenUseCase&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;number&lt;/td&gt;
+		&lt;td&gt;text?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;The number 0 is an Even number&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;The number 1 is an Odd number&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;The number 2 is an Even number&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;The number 3 is an Odd number&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;The number 4 is an Even number&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;-1&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;The number -1 is an Odd number&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;-2&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;The number -2 is an Even number&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>OddOrEvenUseCaseTestPage</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='OddOrEvenUseCase', args=[]}</instruction>
+        <slimResult>pass(OddOrEvenUseCase)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_0_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>OddOrEvenUseCase</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_4', instruction='call', instanceName='decisionTable_0', methodName='setNumber', args=[0]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_0_4</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_6', instruction='call', instanceName='decisionTable_0', methodName='text', args=[]}</instruction>
+        <slimResult>pass(The number 0 is an Even number)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_0_6</instructionId>
+                    <col>1</col>
+                              <row>2</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The number 0 is an Even number</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_8', instruction='call', instanceName='decisionTable_0', methodName='setNumber', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_0_8</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_10', instruction='call', instanceName='decisionTable_0', methodName='text', args=[]}</instruction>
+        <slimResult>pass(The number 1 is an Odd number)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_0_10</instructionId>
+                    <col>1</col>
+                              <row>3</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The number 1 is an Odd number</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_12', instruction='call', instanceName='decisionTable_0', methodName='setNumber', args=[2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_0_12</instructionId>
+                    <col>0</col>
+                              <row>4</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_14', instruction='call', instanceName='decisionTable_0', methodName='text', args=[]}</instruction>
+        <slimResult>pass(The number 2 is an Even number)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_0_14</instructionId>
+                    <col>1</col>
+                              <row>4</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The number 2 is an Even number</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_16', instruction='call', instanceName='decisionTable_0', methodName='setNumber', args=[3]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_0_16</instructionId>
+                    <col>0</col>
+                              <row>5</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_18', instruction='call', instanceName='decisionTable_0', methodName='text', args=[]}</instruction>
+        <slimResult>pass(The number 3 is an Odd number)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_0_18</instructionId>
+                    <col>1</col>
+                              <row>5</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The number 3 is an Odd number</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_20', instruction='call', instanceName='decisionTable_0', methodName='setNumber', args=[4]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_0_20</instructionId>
+                    <col>0</col>
+                              <row>6</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_22', instruction='call', instanceName='decisionTable_0', methodName='text', args=[]}</instruction>
+        <slimResult>pass(The number 4 is an Even number)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_0_22</instructionId>
+                    <col>1</col>
+                              <row>6</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The number 4 is an Even number</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_24', instruction='call', instanceName='decisionTable_0', methodName='setNumber', args=[-1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_0_24</instructionId>
+                    <col>0</col>
+                              <row>7</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_26', instruction='call', instanceName='decisionTable_0', methodName='text', args=[]}</instruction>
+        <slimResult>pass(The number -1 is an Odd number)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_0_26</instructionId>
+                    <col>1</col>
+                              <row>7</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The number -1 is an Odd number</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_28', instruction='call', instanceName='decisionTable_0', methodName='setNumber', args=[-2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_0_28</instructionId>
+                    <col>0</col>
+                              <row>8</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_0_30', instruction='call', instanceName='decisionTable_0', methodName='text', args=[]}</instruction>
+        <slimResult>pass(The number -2 is an Even number)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_0_30</instructionId>
+                    <col>1</col>
+                              <row>8</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The number -2 is an Even number</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:./OCSlimProjectTestRunner.sh</testSystem>
+    <command>./OCSlimProjectTestRunner.sh 8086</command>
+    <exitCode>0</exitCode>
+    <stdOut>[OCSP_RUN] == RunSlimTestTargetWithSlimPort~iOS:8086 Sun 13 Jan 2019 19:39:37 GMT==
+[OCSP_RUN] Info: Test System Suggested SDK: 11.4
+[OCSP_RUN] Info: Test System Path: /Users/fragkiskos/Library/Developer/Xcode/DerivedData/OddOrEven-bgvzynjsnwnqktahkkzwpbvfobpa/Build/Products/Debug-iphonesimulator/AcceptanceTests.app
+[OCSP_RUN] Start Slim Test Sytem
+[OCSP_SIMCTL] == Launching Slim Host App @(#)PROGRAM:simctl  PROJECT:CoreSimulator-518.22  ==
+    iPhone 8 Plus (E515948F-8BAC-46B4-A5A1-33C6655CD1F9) (Booted)
+    iPhone SE (8CE86702-4411-4DFD-A09E-BE8045AD745E) (Booted)
+[OCSP_SIMCTL] Installing App Identifier:com.trikalabs.AcceptanceTests
+[OCSP_SIMCTL] Launching... (App Identifer:com.trikalabs.AcceptanceTests, Slim Port: 8086)
+[OCSP_RUN] Waiting for Slim System... (18300) Sun 13 Jan 2019 19:39:38 GMT
+  PID TTY           TIME CMD
+18300 ??         0:00.03 /Users/fragkiskos/Library/Developer/CoreSimulator/Devices/8CE86702-4411-4DFD-A09E-BE8045AD745E/data/Containers/Bundle/Application/AB22E62B-1F68-4D93-A54F-5C6C1FC78766/AcceptanceTests.app/AcceptanceTests 8086
+  PID TTY           TIME CMD
+[OCSP_RUN] Slim System Exited Sun 13 Jan 2019 19:39:40 GMT
+[OCSP_RUN] Slim Test System Exited Normally
+</stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>2846</totalRunTimeInMillis>
+</testResults>
+
