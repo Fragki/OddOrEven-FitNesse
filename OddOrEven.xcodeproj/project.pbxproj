@@ -25,6 +25,9 @@
 		0C04C82021E6B88400AF62C0 /* OddOrEvenViewInterfaceSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C04C81F21E6B88400AF62C0 /* OddOrEvenViewInterfaceSpy.swift */; };
 		0C04C82221E6BB5D00AF62C0 /* OddOrEvenCalculationUseCaseSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C04C82121E6BB5D00AF62C0 /* OddOrEvenCalculationUseCaseSpy.swift */; };
 		0C04C82421E6BBCB00AF62C0 /* OddOrEvenViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C04C82321E6BBCB00AF62C0 /* OddOrEvenViewControllerTests.swift */; };
+		0C36598321EB8DA900F0E40D /* AcceptanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C36598221EB8DA900F0E40D /* AcceptanceTests.m */; };
+		0C36598621EB8DA900F0E40D /* FixtureExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C36598521EB8DA900F0E40D /* FixtureExample.swift */; };
+		6D25384DFA8C81E879645963 /* Pods_AcceptanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6386659665D8A8E5F344EE4 /* Pods_AcceptanceTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0052FA11DA550AA2DFF77F6B /* Pods-AcceptanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceptanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0C04C7DC21E12B4A00AF62C0 /* OddOrEven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OddOrEven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C04C7DF21E12B4A00AF62C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C04C7E421E12B4A00AF62C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,6 +64,14 @@
 		0C04C81F21E6B88400AF62C0 /* OddOrEvenViewInterfaceSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddOrEvenViewInterfaceSpy.swift; sourceTree = "<group>"; };
 		0C04C82121E6BB5D00AF62C0 /* OddOrEvenCalculationUseCaseSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddOrEvenCalculationUseCaseSpy.swift; sourceTree = "<group>"; };
 		0C04C82321E6BBCB00AF62C0 /* OddOrEvenViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddOrEvenViewControllerTests.swift; sourceTree = "<group>"; };
+		0C36597F21EB8DA900F0E40D /* AcceptanceTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcceptanceTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C36598221EB8DA900F0E40D /* AcceptanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcceptanceTests.m; sourceTree = "<group>"; };
+		0C36598521EB8DA900F0E40D /* FixtureExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureExample.swift; sourceTree = "<group>"; };
+		0C36598721EB8DA900F0E40D /* SlimTables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlimTables.h; sourceTree = "<group>"; };
+		0C36598821EB8DA900F0E40D /* AcceptanceTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AcceptanceTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		0C36598921EB8DA900F0E40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		197CD5156CD82797CFA90B1F /* Pods-AcceptanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceptanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6386659665D8A8E5F344EE4 /* Pods_AcceptanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcceptanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C36597B21EB8DA900F0E40D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D25384DFA8C81E879645963 /* Pods_AcceptanceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,7 +105,10 @@
 			children = (
 				0C04C7DE21E12B4A00AF62C0 /* OddOrEven */,
 				0C04C7F321E12B4C00AF62C0 /* OddOrEvenTests */,
+				0C36598021EB8DA900F0E40D /* AcceptanceTests */,
 				0C04C7DD21E12B4A00AF62C0 /* Products */,
+				BB53739EAC20E4E3D5568BBD /* Pods */,
+				5E1CFC03F8D2AD5F22DDA2E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +117,7 @@
 			children = (
 				0C04C7DC21E12B4A00AF62C0 /* OddOrEven.app */,
 				0C04C7F021E12B4C00AF62C0 /* OddOrEvenTests.xctest */,
+				0C36597F21EB8DA900F0E40D /* AcceptanceTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -212,6 +236,51 @@
 			path = Mocks;
 			sourceTree = "<group>";
 		};
+		0C36598021EB8DA900F0E40D /* AcceptanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C36598921EB8DA900F0E40D /* Info.plist */,
+				0C36598421EB8DA900F0E40D /* Fixtures */,
+				0C36598121EB8DA900F0E40D /* Supporting Files */,
+			);
+			path = AcceptanceTests;
+			sourceTree = "<group>";
+		};
+		0C36598121EB8DA900F0E40D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C36598221EB8DA900F0E40D /* AcceptanceTests.m */,
+				0C36598721EB8DA900F0E40D /* SlimTables.h */,
+				0C36598821EB8DA900F0E40D /* AcceptanceTests-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C36598421EB8DA900F0E40D /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				0C36598521EB8DA900F0E40D /* FixtureExample.swift */,
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
+		5E1CFC03F8D2AD5F22DDA2E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6386659665D8A8E5F344EE4 /* Pods_AcceptanceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB53739EAC20E4E3D5568BBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0052FA11DA550AA2DFF77F6B /* Pods-AcceptanceTests.debug.xcconfig */,
+				197CD5156CD82797CFA90B1F /* Pods-AcceptanceTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -250,6 +319,26 @@
 			productReference = 0C04C7F021E12B4C00AF62C0 /* OddOrEvenTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		0C36597E21EB8DA900F0E40D /* AcceptanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C36598C21EB8DA900F0E40D /* Build configuration list for PBXNativeTarget "AcceptanceTests" */;
+			buildPhases = (
+				6ED81577FBA5E31086E2FBAE /* [CP] Check Pods Manifest.lock */,
+				0C36597A21EB8DA900F0E40D /* Sources */,
+				0C36597B21EB8DA900F0E40D /* Frameworks */,
+				0C36597C21EB8DA900F0E40D /* Resources */,
+				0C36597D21EB8DA900F0E40D /* [OCSP] Generate Fitnesse Test System Scripts */,
+				E4CD1AD59E995B309991929E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AcceptanceTests;
+			productName = AcceptanceTests;
+			productReference = 0C36597F21EB8DA900F0E40D /* AcceptanceTests.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -266,6 +355,9 @@
 					0C04C7EF21E12B4C00AF62C0 = {
 						CreatedOnToolsVersion = 9.4.1;
 						TestTargetID = 0C04C7DB21E12B4A00AF62C0;
+					};
+					0C36597E21EB8DA900F0E40D = {
+						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
@@ -284,6 +376,7 @@
 			targets = (
 				0C04C7DB21E12B4A00AF62C0 /* OddOrEven */,
 				0C04C7EF21E12B4C00AF62C0 /* OddOrEvenTests */,
+				0C36597E21EB8DA900F0E40D /* AcceptanceTests */,
 			);
 		};
 /* End PBXProject section */
@@ -306,7 +399,75 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C36597C21EB8DA900F0E40D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C36597D21EB8DA900F0E40D /* [OCSP] Generate Fitnesse Test System Scripts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[OCSP] Generate Fitnesse Test System Scripts";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${OCSP_SUPPORT_FILE_DIR}/ocsp-generate-fitnesse-test-system-scripts.sh \"${OCSP_BUNDLE_RESOURCES_DIR}\"";
+		};
+		6ED81577FBA5E31086E2FBAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AcceptanceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4CD1AD59E995B309991929E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/cslim/cslim.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cslim.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcceptanceTests/Pods-AcceptanceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0C04C7D821E12B4A00AF62C0 /* Sources */ = {
@@ -335,6 +496,15 @@
 				0C04C82221E6BB5D00AF62C0 /* OddOrEvenCalculationUseCaseSpy.swift in Sources */,
 				0C04C81821E1386000AF62C0 /* OddEvenCalculatorFake.swift in Sources */,
 				0C04C80E21E12D3300AF62C0 /* OddOrEvenInteractorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C36597A21EB8DA900F0E40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C36598621EB8DA900F0E40D /* FixtureExample.swift in Sources */,
+				0C36598321EB8DA900F0E40D /* AcceptanceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,6 +730,44 @@
 			};
 			name = Release;
 		};
+		0C36598A21EB8DA900F0E40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0052FA11DA550AA2DFF77F6B /* Pods-AcceptanceTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 797TU2HV56;
+				INFOPLIST_FILE = AcceptanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trikalabs.AcceptanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AcceptanceTests/AcceptanceTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C36598B21EB8DA900F0E40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 197CD5156CD82797CFA90B1F /* Pods-AcceptanceTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 797TU2HV56;
+				INFOPLIST_FILE = AcceptanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.trikalabs.AcceptanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AcceptanceTests/AcceptanceTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -586,6 +794,15 @@
 			buildConfigurations = (
 				0C04C7FD21E12B4C00AF62C0 /* Debug */,
 				0C04C7FE21E12B4C00AF62C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C36598C21EB8DA900F0E40D /* Build configuration list for PBXNativeTarget "AcceptanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C36598A21EB8DA900F0E40D /* Debug */,
+				0C36598B21EB8DA900F0E40D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
